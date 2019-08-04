@@ -1,0 +1,23 @@
+.navbar{
+
+    background-color: #bdc3c7;
+}
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+
+    color: #000;
+    text-decoration: none;
+
+
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+    border-bottom: 2px solid #ff0000;
+
+}
